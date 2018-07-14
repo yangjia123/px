@@ -1,0 +1,52 @@
+.color_dark {
+  color: #000 !important;
+}
+
+.color_grey5 {
+  color: #555 !important;
+}
+
+.color_grey6 {
+  color: #666 !important;
+}
+
+.color_grey9 {
+  color: #999 !important;
+}
+
+.color_white {
+  color: #FFF !important;
+}
+
+.color_icongrey {
+  color: #BECAD8 !important;
+}
+
+.color_bodergrey {
+  color: #D6DEE5 !important;
+}
+
+.color_hyperlinkteal {
+  color: #258FB8 !important;
+}
+
+.bcolor_bordergrey {
+ border-color: #D6DEE5 !important;
+}
+
+.font_small {
+  font-size: 12px !important;
+}
+.font_medium {
+  font-size: 14px !important;
+}
+.font_large {
+  font-size: 18px !important;
+}
+.font_xl {
+  font-size: 20px !important;
+}
+
+.font_bold {
+  font-weight: bold !important;
+}

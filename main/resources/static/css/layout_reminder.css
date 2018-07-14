@@ -1,0 +1,44 @@
+.main_wrapper {
+  border: 1px solid #D6DEE5;
+}
+
+.main_wrapper h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.reminder_row1 {
+  font-size: 14px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.reminder_row2 {
+  font-size: 14px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.reminder_row3 {
+  font-size: 14px;
+  margin: 50px;
+}
+
+.reminder_row4 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.reminder_col1 {
+  width: 200px;
+  vertical-align: top;
+  display: inline-block;
+}
+.reminder_col2 {
+  width: auto;
+  display: inline-block;
+}
