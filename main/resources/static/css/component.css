@@ -1,0 +1,231 @@
+.badgehyperlink a {
+  background-color: #F2F4F6;
+  border-radius: 5px;
+}
+
+a.searchbtn {
+  color: #FFF;
+  background-color: #BECAD7;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+a.colorbtnskyblue {
+  color: #FFF !important;
+  background-color: #25C6FF;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+}
+a.colorbtnskyblueinline {
+  color: #FFF !important;
+  background-color: #25C6FF;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+a.colorbtnbrown {
+  color: #FFF !important;
+  background-color: #6D7084;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+}
+a.colorbtnbrowninline {
+  color: #FFF !important;
+  background-color: #6D7084;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+a.roundbtnblue {
+  color: #FFF !important;
+  background-color: #0096FA;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 50px;
+  border-radius: 20px;
+}
+a.roundbtndark {
+  color: #FFF !important;
+  background-color: #5B5B5B;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 50px;
+  border-radius: 20px;
+  display: block;
+}
+
+hr.dotted {
+  border-top: 1px dotted #D6DEE5;
+}
+
+input.searchbox {
+  padding: 2px;
+}
+
+input.submitbox {
+  width: 100%;
+  color: #FFF !important;
+  background-color: #25C6FF;
+  padding: 8px 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input.submitboxreminder {
+  width: 180px;
+  color: #FFF !important;
+  background-color: #663333;
+  font-size: 14px;
+  padding: 8px 20px;
+  outline: 0;
+  border: 1px solid #D6DEE5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img.avatar_home {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border: 1px solid #D6DEE5;
+  border-radius: 50%;
+}
+
+img.avatar_medium {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border: 1px solid #D6DEE5;
+  border-radius: 50%;
+}
+
+ul.profilelist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul.profilelist li {
+  font-size: font_medium;
+  padding-left: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin: 0;
+}
+ul.profilelist li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+ul.profilelist li a {
+  color: #666;
+  display: block;
+}
+
+div.gallery_xs {
+  width: 160px;
+  height: 90px;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 5px;
+  display: inline-block;
+}
+div.gallery_xs div.frame {
+  width: 160px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  position: relative;
+}
+div.gallery_xs div.frame img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.gallery_small {
+  width: 160px;
+  height: 160px;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 5px;
+  display: inline-block;
+}
+div.gallery_small div.frame {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  position: relative;
+}
+div.gallery_small div.frame img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.gallery_medium {
+  width: 240px;
+  height: 160px;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 5px;
+  display: inline-block;
+}
+div.gallery_medium div.frame {
+  width: 240px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+}
+div.gallery_medium div.frame img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.multiline
+{
+  white-space: pre-wrap;
+}

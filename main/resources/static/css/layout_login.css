@@ -1,0 +1,104 @@
+body {
+  font-family: 微软雅黑;
+}
+
+#loginbox {
+  z-index: 99;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  padding: 50px 20px;
+  background: rgba(255,255,255,.9);
+}
+
+#registerbox {
+  z-index: 99;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width: 350px;
+  height: 700px;
+  margin: auto;
+  padding: 30px 20px;
+  background: rgba(255,255,255,.9);
+}
+
+#toprightbtn {
+  z-index: 88;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  text-align: right;
+  margin: 15px 10px;
+}
+
+#crossfade {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#crossfade img{
+  z-index: 0;
+  min-width: 50%;
+  min-height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+img:nth-child(1) {
+  animation: xfade 96s 84s infinite;
+}
+img:nth-child(2) {
+  animation: xfade 96s 72s infinite;
+}
+img:nth-child(3) {
+  animation: xfade 96s 60s infinite;
+}
+img:nth-child(4) {
+  animation: xfade 96s 48s infinite;
+}
+img:nth-child(5) {
+  animation: xfade 96s 36s infinite;
+}
+img:nth-child(6) {
+  animation: xfade 96s 24s infinite;
+}
+img:nth-child(7) {
+  animation: xfade 96s 12s infinite;
+}
+img:nth-child(8) {
+  animation: xfade 96s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  14.67% {
+    opacity:1;
+  }
+  16.67%{
+    opacity: 0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

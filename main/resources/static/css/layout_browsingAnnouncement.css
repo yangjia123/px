@@ -1,0 +1,16 @@
+.main_wrapper_joined {
+  border: 1px solid #D6DEE5;
+  border-top: 0;
+}
+
+.main_wrapper_joined h1 {
+  background-color: #EEF0F3;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+.main_wrapper_joined h2 {
+  color: #999;
+  font-size: 14px;
+}
